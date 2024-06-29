@@ -1,0 +1,154 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-Sticker {
+  height: 20vmin;
+  padding: 10px;
+  background-color: #6e006e;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.App {
+  background-color: #6e006e;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-header {
+  min-height: 100vh;
+  min-width: 90vw;
+  background-color: #6e006e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header {
+  min-height: 10vh;
+  min-width: 90vw;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6e006e;
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Title {
+  margin-top: 15px;
+  color: antiquewhite;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.ButtonGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0px 15px;
+}
+
+.GroupItem {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  align-self: center;
+  color: white;
+}
+
+.ImgCat {
+  width: 500px;
+  max-width: 500px;
+  max-height: 500px;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+.ImgCatList {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.CatGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 96px;
+  margin-top: 96px;
+  margin-bottom: 64px;
+}
+
+.CatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.CatTitleItem {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.CatTextItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.OriginText {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.SearchInput {
+  position: absolute;
+  /* top: 20px; */
+  left: 20px;
+}
+
+.App-Sticker {
+  margin: 0 auto;
+  cursor: pointer;
+}
